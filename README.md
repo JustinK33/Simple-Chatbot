@@ -23,7 +23,7 @@ A simple terminal-based chatbot powered by **Google Gemini** (via `llama_index`)
 
 ---
 
-## 1. Setup (Local Python)
+## Setup (Local Python)
 
 git clone <your-repo-url>.git
 cd ChatBot   # or whatever your project folder is called
