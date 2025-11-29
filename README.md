@@ -8,7 +8,7 @@ It’s powered by Google Gemini (via `llama_index`) and keeps a running conversa
 ## Tech Stack
 
 - Python
-- Google Gemini (`gemini-2.0-flash`)
+- Geminai API
 - Docker
 
 ---
@@ -49,13 +49,17 @@ I reinforced the pattern of a simple REPL (read–eval–print loop) in Python w
 ---
 
 ## Running the Project
+
 ### To run the project locally, follow these steps:
+
   1. Clone the repo (git clone <url>)
   2. Create a virtual environment (python3 -m venv venv)
   3. Activate the environment (source venv/bin/activate)
   4. Install requirements (pip install -r requirements.txt)
   5. Set or export your Geminai API key (in .env or export ...)
   6. Run locally (python3 app/main.py)
+     
 ### Run with Docker
+
   2. Build image (docker build -t cstutor -f dockerfile .)
   3. Run image (docker run --rm -it --env-file .env cstutor) # make sure API key is in .env
